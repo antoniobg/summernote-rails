@@ -6872,7 +6872,7 @@
                    '<input class="note-image-url form-control col-md-12" type="text" />' +
                    '<small class="form-text text-muted">' +
                      lang.image.ssl_warning +
-                     '<button type="button" class="btn btn-xs btn-link" data-container="body" data-toggle="popover" data-placement="bottom" content="' + lang.image.ssl_warning_tooltip + '">' +
+                     '<button type="button" class="btn-link" data-container="body" data-toggle="popover" data-placement="bottom" data-content="' + lang.image.ssl_warning_tooltip + '">' +
                        lang.image.url_more_info +
                      '</button>'
                    '</small>' +
