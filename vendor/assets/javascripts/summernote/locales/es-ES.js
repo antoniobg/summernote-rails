@@ -31,6 +31,7 @@
         selectFromFiles: 'Seleccionar desde los archivos',
         maximumFileSize: 'Tamaño máximo del archivo',
         maximumFileSizeError: 'Has superado el tamaño máximo del archivo.',
+        ssl_warning: 'Usa URLs del tipo HTTPS en lugar de HTTP. Si insertas una imagen que cargue a través del protocolo HTTP, puede que la imagen no se cargue en algunos dispositivos',
         url: 'URL de la imagen',
         remove: 'Eliminar imagen'
       },
