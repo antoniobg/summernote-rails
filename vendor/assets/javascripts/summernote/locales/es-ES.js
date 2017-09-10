@@ -34,6 +34,7 @@
         ssl_warning: 'Usa URLs del tipo HTTPS en lugar de HTTP.',
         ssl_warning_tooltip: 'Si insertas una imagen que cargue a través del protocolo HTTP, puede que la imagen no se cargue en algunos dispositivos',
         url: 'URL de la imagen',
+        url_more_info: 'Más info',
         remove: 'Eliminar imagen'
       },
       video: {

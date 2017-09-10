@@ -2138,6 +2138,7 @@
         ssl_warning: 'Use HTTPS URLs instead of HTTP URLs.',
         ssl_warning_tooltip: 'If you choose to insert an image that loads through HTTP, the image might not be displayed in some devices.',
         url: 'Image URL',
+        url_more_info: 'More info',
         remove: 'Remove Image'
       },
       video: {
@@ -6871,7 +6872,9 @@
                    '<input class="note-image-url form-control col-md-12" type="text" />' +
                    '<small class="form-text text-muted">' +
                      lang.image.ssl_warning +
-                     '<span data-toggle="tooltip" title="' + lang.image.ssl_warning_tooltip + '">' + '&#8505;' + "</span>" +
+                     '<button type="button" class="btn btn-xs btn-link" data-container="body" data-toggle="popover" data-placement="bottom" content="' + lang.image.ssl_warning_tooltip + '">' +
+                       lang.image.url_more_info +
+                     '</button>'
                    '</small>' +
                  '</div>';
       var footer = '<button href="#" class="btn btn-primary note-image-btn disabled" disabled>' + lang.image.insert + '</button>';
