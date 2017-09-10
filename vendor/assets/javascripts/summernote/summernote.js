@@ -2135,7 +2135,8 @@
         selectFromFiles: 'Select from files',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',
-        ssl_warning: 'Use HTTPS URLs instead of HTTP URLs. If you choose to insert an image that loads through HTTP, the image might not be displayed in some devices.',
+        ssl_warning: 'Use HTTPS URLs instead of HTTP URLs.',
+        ssl_warning_tooltip: 'If you choose to insert an image that loads through HTTP, the image might not be displayed in some devices.',
         url: 'Image URL',
         remove: 'Remove Image'
       },
@@ -6868,7 +6869,10 @@
                  '<div class="form-group note-group-image-url" style="overflow:auto;">' +
                    '<label>' + lang.image.url + '</label>' +
                    '<input class="note-image-url form-control col-md-12" type="text" />' +
-                   '<p class="form-text text-muted">' + lang.image.ssl_warning + '</p>' +
+                   '<small class="form-text text-muted">' +
+                     lang.image.ssl_warning +
+                     '<span data-toggle="tooltip" title="' + lang.image.ssl_warning_tooltip + '">' + '&#8505;' + "</span>" +
+                   '</small>' +
                  '</div>';
       var footer = '<button href="#" class="btn btn-primary note-image-btn disabled" disabled>' + lang.image.insert + '</button>';
 
